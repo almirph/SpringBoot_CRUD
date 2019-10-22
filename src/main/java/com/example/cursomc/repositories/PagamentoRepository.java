@@ -1,10 +1,10 @@
 package com.example.cursomc.repositories;
 
-import com.example.cursomc.domain.Pedido;
+import com.example.cursomc.domain.Pagamento;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface PedidoRepository extends JpaRepository<Pedido, Integer> {
+public interface PagamentoRepository extends JpaRepository<Pagamento, Integer> {
 
 }
